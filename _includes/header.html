@@ -1,0 +1,18 @@
+<header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5">
+    <a href="{{ "/" | prepend: site.baseurl }}" title="Go to the Homepage"
+        class="d-flex align-items-center link-body-emphasis text-decoration-none">
+        <span class="fs-3">{{ site.name }}</span>
+    </a>
+
+    <ul class="nav nav-underline d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        {% assign sorted_pages = site.pages | sort:"order" %}
+        {% for my_page in sorted_pages %}
+        {% if my_page.title %}
+        <li class="nav-item">
+            <a class="nav-link {% if forloop.last == false %}me-3{% endif %} py-2 link-body-emphasis text-decoration-none {% if page.url == my_page.url %}active{% endif %}"
+                href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</header>

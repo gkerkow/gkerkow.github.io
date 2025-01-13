@@ -1,0 +1,30 @@
+---
+layout: default
+title: Public Work
+permalink: /public-work
+order: 2
+---
+
+<hr class="mb-5" />
+
+<h2>White Papers</h2>
+
+{% for item in site.data.white_papers %}
+    {% include work.html %}
+{% endfor %}
+
+<hr class="mt-3 mb-5" />
+
+<h2>Webinar</h2>
+
+{% for item in site.data.webinars %}
+    {% include work.html %}
+{% endfor %}
+
+<hr class="mt-3 mb-5" />
+
+<h2>Poster</h2>
+
+{% for item in site.data.posters %}
+    {% include work.html %}
+{% endfor %}

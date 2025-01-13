@@ -1,0 +1,15 @@
+<div class="card ms-2 mb-3 px-0">
+    <div class="row g-0">
+        <div class="col-md-3">
+            <img src="{{ item.image | prepend: site.baseurl }}" class="img-fluid rounded-start">
+        </div>
+        <div class="col-md-9">
+            <div class="card-body">
+                <h5 class="card-title">{{ item.title }}</h5>
+                <p class="card-text">{{ item.description }}</p>
+                <a class="btn btn-outline-secondary" href="{{ item.url }}" role="button">{{ item.link_text }}</a>
+
+            </div>
+        </div>
+    </div>
+</div>
