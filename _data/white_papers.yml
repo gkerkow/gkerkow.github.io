@@ -17,7 +17,7 @@
   url: "https://www.biotage.com/documents/phytip-hamilton-robotics-brochure"
   
 - title: "ProPlus PhyTip® Columns Technical Note"
-  description: "White paper written at Biotage in 2022"
+  description: "White paper written at Biotage in 2022 for experiement I performed demonstrating binding capacity of PhyTip Columns with ProA resin on Opentrons OT-2 Liquid Handler."
   image: "/assets/images/firefly_scientist_walking_thumbnail.jpg"
   link_text: "Go to download page"
   url: "https://www.biotage.com/documents/proplus-phytip-columns-technical-note"
