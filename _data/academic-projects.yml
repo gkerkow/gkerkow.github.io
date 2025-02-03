@@ -3,8 +3,8 @@
   links:
    - text: "Open PDF"
      url: "/assets/content/gkerkow_musical_proteins_science_art.pdf"
-  # - text: "Download PowerPoint"
-  #   url: "/assets/content/gkerkow_ppt_musical_protein_file.pptx"
+   - text: "Download PowerPoint"
+     url: "/assets/content/gkerkow_ppt_musical_protein_file.pptx"
 
 - title: "Market Research Paper on Popular Drug Ozempic"
   description: ""
