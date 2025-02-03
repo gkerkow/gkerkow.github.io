@@ -4,8 +4,9 @@
             <div class="card-body">
                 <h5 class="card-title">{{ item.title }}</h5>
                 <p class="card-text">{{ item.description }}</p>
-                <a class="btn btn-outline-secondary" href="{{ item.url }}" role="button">{{ item.link_text }}</a>
-
+                {% for link in item.links %}
+                    <a class="btn btn-outline-secondary" href="{{ link.url }}" role="button">{{ link.text }}</a>
+                {% endfor %}
             </div>
         </div>
     </div>

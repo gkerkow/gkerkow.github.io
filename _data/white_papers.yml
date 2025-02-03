@@ -1,23 +1,27 @@
 - title: "PhyTip® Columns Versus Other Common Technologies: A Comparative Analysis of Protein Purification Efficiency and Yield Consistency"
   description: "White paper written at Biotage in 2024 highlighting the benefits of automation for process developement."
   image: "/assets/images/firefly_protein_purification_thumbnail.jpg"
-  link_text: "Go to download page"
-  url: "https://www.biotage.com/documents/phytip-comparing-protein-purification-efficiency-yield-consistency-white-paper"
+  links:
+   - text: "Go to download page"
+     url: "https://www.biotage.com/documents/phytip-comparing-protein-purification-efficiency-yield-consistency-white-paper"
 
 - title: "PhyTip® Columns Versus Other Common Technologies: A Comparative Analysis of Protein Purification Yields"
   description: "White paper written at Biotage in 2024 focusing various experiments comparing four platforms for protein purification using Ni-IMAC and MabSelect resin."
   image: "/assets/images/firefly_automated_protein_purification_thumbnail.jpg"
-  link_text: "Go to download page"
-  url: "https://www.biotage.com/documents/phytip-comparing-protein-purification-yields-white-paper"
+  links:
+   - text: "Go to download page"
+     url: "https://www.biotage.com/documents/phytip-comparing-protein-purification-yields-white-paper"
 
 - title: "Biomolecule Purification with PhyTip® Columns for Hamilton® Robotics"
   description: "White paper written at Biotage in 2023 to demonstrate throughput capabilities of PhyTip Columns on Hamilton STAR Liquid Handler."
   image: "/assets/images/firefly_drug_vials_thumbnail.jpg"
-  link_text: "Go to download page"
-  url: "https://www.biotage.com/documents/phytip-hamilton-robotics-brochure"
+  links:
+   - text: "Go to download page"
+     url: "https://www.biotage.com/documents/phytip-hamilton-robotics-brochure"
   
 - title: "ProPlus PhyTip® Columns Technical Note"
   description: "White paper written at Biotage in 2022 for experiement I performed demonstrating binding capacity of PhyTip Columns with ProA resin on Opentrons OT-2 Liquid Handler."
   image: "/assets/images/firefly_scientist_walking_thumbnail.jpg"
-  link_text: "Go to download page"
-  url: "https://www.biotage.com/documents/proplus-phytip-columns-technical-note"
+  links:
+   - text: "Go to download page"
+     url: "https://www.biotage.com/documents/proplus-phytip-columns-technical-note"

@@ -1,5 +1,6 @@
 - title: "Elevating Protein Purification Efficiency: Transitioning from Manual Techniques to Automated Platforms"
   description: "Poster first presented for Biotage in 2024. Compares various experiments for competitive protein purification technologies."
   image: "/assets/images/poster_biotage_thumbnail.jpg"
-  link_text: "Open PDF"
-  url: "/assets/content/biotage_poster_2024.pdf"
+  links:
+   - text: "Open PDF"
+     url: "/assets/content/biotage_poster_2024.pdf"
