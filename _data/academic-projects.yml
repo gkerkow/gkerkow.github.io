@@ -2,6 +2,8 @@
   description: "Bioinformatics final project that transforms protein sequences into musical notes output using python code."
   link_text: "Open PDF"
   url: "/assets/content/gkerkow_musical_proteins_science_art.pdf"
+  # link_text: "Download PowerPoint"
+  # url: "/assets/content/gkerkow_ppt_musical_protein_file.pptx"
 
 - title: "Market Research Paper on Popular Drug Ozempic"
   description: ""
